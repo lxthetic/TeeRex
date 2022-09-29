@@ -13,7 +13,15 @@ Dependenices used in this projects are as follows:
 
 <br/>
 
+# Live Demo
+
+[<u>Click here</u>](https://tee-rex-by-alex.netlify.app/) to see live preview of the project.
+
+<br/>
+
 # Getting Started
+
+After downloading the project from Github, run the following commands:
 
 ```bash
 $npm install

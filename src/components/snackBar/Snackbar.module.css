@@ -1,0 +1,53 @@
+.containerOuter {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.snackbarContainer {
+  position: relative;
+  color: white;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  min-width: 180px;
+  width: fit-content;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.timer {
+  height: 3px;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  /* bottom: 0; */
+  left: 0;
+  background-color: yellow;
+}
+
+.snackbarContainer img {
+  width: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.containerInner {
+  display: flex;
+  align-items: center;
+}
+
+.containerInner > div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  max-width: 300px;
+}
+
+.icon {
+  margin-right: 6px;
+}

@@ -1,0 +1,49 @@
+.container {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  height: fit-content;
+  width: 250px;
+  min-width: 200px;
+  box-shadow: var(--subtle-shadow);
+  z-index: 1;
+}
+
+h1 {
+  margin-left: 15px;
+}
+
+.clearAll {
+  font-size: 15px;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.clearAll:hover {
+  color: orangered;
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filterHeader > img {
+  filter: brightness(50%);
+  width: 30px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    position: fixed;
+    overflow-y: auto;
+    top: 60px;
+    margin: 0;
+    height: 100vh;
+    box-shadow: 0 3px 16px 0 rgb(0 0 0 / 11%);
+    transition: 0.2s left ease-in-out;
+  }
+}
